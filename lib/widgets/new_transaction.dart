@@ -96,7 +96,7 @@ class _NewTransactionState extends State<NewTransaction> {
               child: Text('Add Transaction'),
               color: Theme.of(context).primaryColor,
               textColor: Theme.of(context).textTheme.button.color,
-              onPressed: () {},
+              onPressed: _submitData,
             ),
           ],
         ),
